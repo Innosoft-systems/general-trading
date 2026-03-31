@@ -1,0 +1,17 @@
+{
+  "name": "uztouragency-crypto",
+  "private": true,
+  "packageManager": "pnpm@10.8.0",
+  "scripts": {
+    "dev": "corepack pnpm -r --parallel --stream dev",
+    "build": "corepack pnpm -r build",
+    "lint": "corepack pnpm -r lint",
+    "test": "corepack pnpm -r test",
+    "format": "prettier --write .",
+    "typecheck": "corepack pnpm -r typecheck",
+    "seed": "corepack pnpm --filter @uztour/server seed"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
